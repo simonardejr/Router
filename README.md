@@ -11,6 +11,7 @@ Use this router is very simple, just include autoload from composer, define your
 require 'vendor/autoload.php';
 
 use simonardejr\Router\Router;
+use simonardejr\Router\Request;
 use simonardejr\Router\Response;
 
 // Define a GET route to "/"
